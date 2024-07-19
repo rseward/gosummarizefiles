@@ -46,6 +46,12 @@ by lines of text:
 I personally use the tool to verify the transfer of files after rsync or the restore of data
 from a backup. The tool is also useful for observing recent modifications to a directory tree.
 
+## Related Projects
+
+A slightly faster version of this utility is written in C. If a harder to build but faster to use utility is your thing please head there.
+
+- https://github.com/rseward/summarizefiles
+
 ## Building the project
 
 This version of the project uses the go bindings for libmagic. This design choice leads to 
