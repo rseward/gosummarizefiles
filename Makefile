@@ -1,7 +1,10 @@
+deps:
+	go get summarizefiles/core
+
 run:
 	go run main.go ../..
 
-build:
+build:	deps
 	go build
 
 install:	build
